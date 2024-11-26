@@ -4,9 +4,43 @@
 
 ![voiceprint settings display](./imgs/04-voiceprint.png)
 
+The Voiceprint sections allows you to select from dozens of agent voices from [ElevenLabs](https://elevenlabs.io/text-to-speech). 
+Alternatively, take advantage of our voice upload feature. 
+
+**TODO** - get details on voice upload requirements (file type, length, etc)
+
+When you've selected your voice, use the "PLAY SAMPLE" button to hear your agent utter a short phrase. To hear custom content from your selected voice, the **Generate Snippets** interface can take in a custom script to listen to.
+
+Other configurations to the voice can be made in the **Voice Settings** section. If you're happy with your base voice selected here, select "ACTIVATE VOICE" to save it to your agent.
+
 ## Voice Prompts
 
 ![voice prompts settings display](./imgs/04-voice-prompts.png)
+
+There are several situations that an agent will generate scripted speach as opposed to having the gen AI model generate the content. The voice prompt section is where these scripts are created and updated. Modifyable scripts are available for the following processes:
+
+#### Welcome Phrase
+
+The greeting your agent uses when it answers a call.
+**TODO** - See if it's possible to have multiple welcome messages that are randomly selected. If so, I'm assuming this is done by just adding new lines.
+
+#### Processing Phrases
+
+What the agent says when it's processing something the caller has said. It will choose one at random from the list. These phrases effectively work as a "buffer" to fill the silence while the AI is processing the spoken text. 
+
+Each line item can be prepended with an `S:` or `Q:` to signify if that particular processing phrase should follow a statement (S) or a question (Q)
+
+#### Next Action Phrase
+
+After an agent completes a request, the agent will say this to prompt the caller to speak again as a follow up statement.
+
+#### Voicemail Phrase
+
+The agent will say this after the caller has asked to leave a voicemail.
+
+#### Extended Silence Phrase
+
+The agent will say this after 15 seconds of silence.
 
 ## Agent Prompts
 
