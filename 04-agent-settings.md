@@ -44,15 +44,29 @@ The agent will say this after 15 seconds of silence.
 
 ## Agent Prompts
 
+The Agent Prompt is where you define the instructions to the LLM for how the agent is to respond to user questions. This section can be filled with behavioral instructions, as well as specific content details that you would like your agent to respond with. 
+
+Additionally, by enabling the template library, you can have access to templates for all of your agents on your account. This allows the sharing of content and instructions across some or all of the agents, ensuring consistency regardless of which agent a user is interacting with.
+
+Prompt engineering best practices can be found at [OpenAI](https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt)
+
 ![agent prompts settings display](./imgs/04-agent-prompt.png)
 
 ## Voice Settings
 
+ElevenLabs provides the following model options that can be chosen for your agents use case. 
+
+* Multilingual V2
+* Turbo V2 (English only)
+* Turbo V2.5 (Multilingual)
+
+Please see the [ElevenLabs documentation](https://elevenlabs.io/docs/developer-guides/models) for details on each of these models. 
+
+Voice settings also allow you to modify an agent's voice at a granular level, providing fine controls over the voice *stability*, *clarity & similarity*, and *style exaggeration*
+
+ElevenLabs Text to Speech setting details can be found [here](https://elevenlabs.io/docs/product/speech-synthesis/voice-settings)
+
 ![voice settings display](./imgs/04-voice-settings.png)
-
-Find details on the ElevenLabs models [here](https://elevenlabs.io/docs/developer-guides/models)
-
-ElevenLabs Text to Speech setting details [here](https://elevenlabs.io/docs/product/speech-synthesis/voice-settings)
 
 ## Additional Settings
 
