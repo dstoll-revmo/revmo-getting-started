@@ -17,7 +17,7 @@ Other configurations to the voice can be made in the **Voice Settings** section.
 
 ![voice prompts settings display](./imgs/04-voice-prompts.png)
 
-There are several situations that an agent will generate scripted speach as opposed to having the gen AI model generate the content. The voice prompt section is where these scripts are created and updated. Modifyable scripts are available for the following processes:
+There are several situations that an agent will generate scripted speech as opposed to having the Gen AI model generate the content. The voice prompt section is where these scripts are created and updated. Modifyable scripts are available for the following processes:
 
 #### Welcome Phrase
 
@@ -26,9 +26,9 @@ The greeting your agent uses when it answers a call.
 
 #### Processing Phrases
 
-What the agent says when it's processing something the caller has said. It will choose one at random from the list. These phrases effectively work as a "buffer" to fill the silence while the AI is processing the spoken text. 
+What the agent says when it's processing something the caller has said. It will choose one at random from the list. These phrases effectively work as a "buffer", filling the silence while the AI is processing the spoken text. 
 
-Each line item can be prepended with an `S:` or `Q:` to signify if that particular processing phrase should follow a statement (S) or a question (Q)
+Each line item can be prepended with an "`S:`" or "`Q:`" to signify if that particular processing phrase should follow a statement (S) or a question (Q)
 
 #### Next Action Phrase
 
